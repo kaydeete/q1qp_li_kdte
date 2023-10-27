@@ -89,6 +89,10 @@
     text-align: left;
 }
 
+.grain {
+    background-image: url(images/comictext.jpg);
+}
+
 /** studybg **/
 .fullscreen2{
     display: flex;
