@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Feeling Passionate;
+    src: url(fonts/Feeling\ Passionate.otf);
+}
+
+
+*{
+    margin: 0px;
+}
+/** navbar **/
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #540B0E;
+    border-radius: 10px;
+    margin-left: 0.5vw;
+    margin-top: 5vh;
+    height: fit-content;
+    padding: 0.5vh;
+    gap: 0.5em;
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+}
+
+.navbar a {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 1vh;
+}
+
+#home{background-image: url(images/home.svg); background-size: 80%; background-position: center;}
+#studybg{background-image: url(images/study.svg); background-size: 80%; background-position: center;}
+#quali{background-image: url(images/quali.svg); background-size: 80%; background-position: center;}
+#quanti{background-image: url(images/quanti.svg);background-size: 80%; background-position: center;}
+#conclusion{background-image: url(images/conclusion.svg); background-size: 80%; background-position: center;}
+#references{background-image: url(images/reference.svg); background-size: 80%; background-position: center;}
+#abtmendteam{background-image: url(images/researchers.svg); background-size: 80%; background-position: center;}
+
+#yt {background-image: url(images/youtube.svg);}
+#fb {background-image: url(images/facebook.svg);}
+#github {background-image: url(images/github.svg);}
+
+/** home page **/
+
+.fullscreen1 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100vh;
+    background-color: #F3D8C7;
+}
+
+.title1 {
+    background-color: #9E2A2B;
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+}
+.title1 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
+
+.fullscreen1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    float: left;
+    margin-right: 60vw;
+    margin-top: 10vh;
+}
+
+.fullscreen1 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+/** studybg **/
+.fullscreen2{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100vh;
+    background-color: #9E2A2B;
+}
+
+.title2 {
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+    background-color: #E07A5F;
+}
+
+.title2 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
+
+/** quali **/
+.title3 {
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+    background-color: #F3D8C7;
+}
+
+.title3 h1 {
+    font-family: Feeling Passionate;
+    color: black;
+}
+
+/** quanti **/
+
+.fullscreen3n4 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100vh;
+    background-color: #b2967d;
+}
+
+.title4 {
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+    background-color: #F3D8C7;
+}
+
+.title4 h1 {
+    font-family: Feeling Passionate;
+    color: black;
+}
+
+/** Conclusion **/
+.fullscreen5 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100vh;
+    background-color: #718355;
+}
+
+.title5 {
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+    background-color: #E09F3E;
+}
+
+.title5 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
+
+/** References **/
+.fullscreen6 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100vh;
+    background-color: #E09F3E;
+}
+
+.title6 {
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+    background-color: #540B0E;
+}
+
+.title6 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
+
+/** abt me nd team **/
+.fullscreen7 {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100vh;
+    background-color: #E07A5F;
+}
+
+.title7 {
+    float: right;
+    height: fit-content;
+    margin-top: 5vh;
+    border-top-left-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    padding: 1vw;
+    background-color: #540B0E;
+}
+
+.title7 h1 {
+    font-family: Feeling Passionate;
+    color: white;
+}
