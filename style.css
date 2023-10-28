@@ -39,6 +39,11 @@
     margin-bottom: 1vh;
 }
 
+.sidebar-links:hover {
+    box-shadow: #E09F3E 1px 1px 20px;
+    transition: .5s;
+}
+
 #home{background-image: url(images/home.svg); background-size: 80%; background-position: center;}
 #studybg{background-image: url(images/study.svg); background-size: 80%; background-position: center;}
 #quali{background-image: url(images/quali.svg); background-size: 80%; background-position: center;}
@@ -51,6 +56,28 @@
 #fb {background-image: url(images/facebook.svg);}
 #github {background-image: url(images/github.svg);}
 
+/** grain texture for all **/
+.grain {
+    background-image: url(images/comictext.jpg);
+    background-size: 75%;
+}
+
+/** alignment applied to all pages **/
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.centerside {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centerside h1, p {
+    text-align: left;
+}
+
 /** home page **/
 
 .fullscreen1 {
@@ -59,6 +86,7 @@
     align-self: flex-start;
     height: 100vh;
     background-color: #F3D8C7;
+    opacity: .95;
 }
 
 .title1 {
@@ -75,22 +103,18 @@
     color: white;
 }
 
-.fullscreen1 h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+.paragraph {
     float: left;
-    margin-right: 60vw;
-    margin-top: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-right: 40vw;
+    margin-top: 5vh;
 }
 
 .fullscreen1 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-}
-
-.grain {
-    background-image: url(images/comictext.jpg);
 }
 
 /** studybg **/
@@ -100,6 +124,7 @@
     align-self: flex-start;
     height: 100vh;
     background-color: #9E2A2B;
+    opacity: .95;
 }
 
 .title2 {
@@ -141,6 +166,7 @@
     align-self: flex-start;
     height: 100vh;
     background-color: #b2967d;
+    opacity: .95;
 }
 
 .title4 {
@@ -165,6 +191,7 @@
     align-self: flex-start;
     height: 100vh;
     background-color: #718355;
+    opacity: .95;
 }
 
 .title5 {
@@ -189,6 +216,7 @@
     align-self: flex-start;
     height: 100vh;
     background-color: #E09F3E;
+    opacity: .95;
 }
 
 .title6 {
@@ -213,6 +241,7 @@
     align-self: flex-start;
     height: 100vh;
     background-color: #E07A5F;
+    opacity: .95;
 }
 
 .title7 {
