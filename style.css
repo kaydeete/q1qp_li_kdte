@@ -181,7 +181,6 @@
 .gender {
     margin-top: 25vh;
     float: left;
-    font-size: 30px;
 }
 
 .row1 {
@@ -190,13 +189,15 @@
 }
 
 table, th, td {
-    border: 1px black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 14pt;
+    font-weight: 500;
 }
 
 .productcateg {
     margin-top: 50vh;
     float: left;
-    font-size: 30px;
 }
 
 .row2 {
