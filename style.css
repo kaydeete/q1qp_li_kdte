@@ -69,15 +69,6 @@
     justify-content: space-between;
 }
 
-.centerside {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.centerside h1, p {
-    text-align: left;
-}
-
 /** home page **/
 
 .fullscreen1 {
@@ -103,18 +94,20 @@
     color: white;
 }
 
-.paragraph {
-    float: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin-right: 40vw;
-    margin-top: 5vh;
+.centerside {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.fullscreen1 p {
+.heading {
+    float: left;
+    font-size: 40px;
+    margin-right: 48vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: left;
 }
 
 /** studybg **/
