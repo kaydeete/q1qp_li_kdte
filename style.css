@@ -59,7 +59,7 @@
 /** grain texture for all **/
 .grain {
     background-image: url(images/comictext.jpg);
-    background-size: 75%;
+    background-size: 100%;
 }
 
 /** alignment applied to all pages **/
@@ -80,9 +80,11 @@
     display: flex;
     justify-content: space-between;
     align-self: flex-start;
-    height: 100vh;
     background-color: #F3D8C7;
     opacity: .98;
+    background-image: url(images/homeaura.png);
+    background-size: 90%;
+    height: 100vh;
 }
 
 .title1 {
@@ -123,6 +125,8 @@
     height: 100vh;
     background-color: #9E2A2B;
     opacity: .98;
+    background-image: url(images/studybgaura.png);
+    background-size: 100%;
 }
 
 .title2 {
@@ -161,6 +165,8 @@
     height: 100vh;
     background-color: #b2967d;
     opacity: .98;
+    background-image: url(images/dataaura.png);
+    background-size: 100%;
 }
 
 /* quali n quanti table */
