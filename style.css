@@ -148,7 +148,7 @@
     margin-right: 10vw;
     margin-top: 20vh;
     float: left;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -261,6 +261,19 @@ table, th, td {
     color: white;
 }
 
+.centerside5 {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 10vw;
+    margin-top: 20vh;
+    float: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
 /** References **/
 .fullscreen6 {
     display: flex;
@@ -283,6 +296,19 @@ table, th, td {
 
 .title6 h1 {
     font-family: Feeling Passionate;
+    color: white;
+}
+
+.centerside6 {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 10vw;
+    margin-top: 20vh;
+    float: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
