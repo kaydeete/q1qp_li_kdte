@@ -169,14 +169,6 @@
     background-size: 100%;
 }
 
-/* quali n quanti table */
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-size: 14pt;
-    font-weight: 500;
-}
-
 /** quali **/
 .title3 {
     float: right;
@@ -186,6 +178,13 @@ table, th, td {
     border-bottom-left-radius: 3vh;
     padding: 1vw;
     background-color: #F3D8C7;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 14pt;
+    font-weight: 500;
 }
 
 .title3 h1 {
